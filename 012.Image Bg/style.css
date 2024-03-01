@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Outline&family=Chivo+Mono:ital,wght@0,100;1,100&family=Kenia&family=Open+Sans:ital,wght@0,300;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Abril Fatface", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.heading {
+    font-size: 10rem;
+    font-weight: 900;
+    background: url("https://images.unsplash.com/photo-1682687982204-f1a77dcc3067?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background: url("./nature.jpg"); */
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
